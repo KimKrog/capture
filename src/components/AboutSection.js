@@ -1,7 +1,6 @@
-import React from "react";
 import home1 from "../img/home1.png";
 
-function AboutSection() {
+const AboutSection = () => {
   return (
     <div>
       <div className='description'>
@@ -29,6 +28,6 @@ function AboutSection() {
       </div>
     </div>
   );
-}
+};
 
 export default AboutSection;

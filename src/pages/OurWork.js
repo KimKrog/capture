@@ -11,6 +11,7 @@ import {
 } from "../animations";
 import { scrollReveal } from "../animations";
 import { useScroll } from "../components/useScroll";
+import ScrollTop from "../components/ScrollTop";
 
 import athlete from "../img/athlete-small.png";
 import theracer from "../img/theracer-small.png";
@@ -62,6 +63,7 @@ const OurWork = () => {
           <img src={goodtimes} alt="Good times" />
         </Link>
       </Movie>
+      <ScrollTop />
     </Work>
   );
 };
